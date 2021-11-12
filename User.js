@@ -3,7 +3,7 @@ function LogOut() {
     flaglogin = JSON.stringify(localStorage.getItem('flag'));
     flaglogin = 0;
     localStorage.setItem('flag', JSON.stringify(flaglogin));
-    window.close();
+    window.location.href='https://prabhatzws.github.io/INstaGram-ME/login.html';
 }
 function AddComment() {
     if ('UserAccountData' in localStorage) {
