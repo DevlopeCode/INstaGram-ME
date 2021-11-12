@@ -22,7 +22,7 @@ function Sign_UP() {
                             localStorage.setItem('UserData', JSON.stringify(data));
                             alert("Sign UP Sucess");
                           //  window.open('/login.html');
-                            window.location.href='/login.html';
+                            window.location.href='https://prabhatzws.github.io/INstaGram-ME/login.html';
                         } else {
                             alert('User_name Alredy Found Use Diffrent Username')
                         }
@@ -46,7 +46,7 @@ function Sign_UP() {
 }
 function LogInCheck(){
     if('UserData' in localStorage){
-      window.open('hhttps://prabhatzws.github.io/INstaGram-ME/login.html');
+      window.open('https://prabhatzws.github.io/INstaGram-ME/login.html');
       location.reload();
     }else{
         alert('No users found in Insta Data');
